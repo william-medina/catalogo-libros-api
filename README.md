@@ -251,25 +251,25 @@ Asegúrate de agregar las dependencias en el archivo `pom.xml` de tu proyecto Ma
 
 La aplicación cuenta con un frontend desarrollado en **React** utilizando **TypeScript** y **Tailwind CSS**. Este frontend está diseñado para interactuar de manera efectiva con la API.
 
-#### Acceso al Repositorio
+### Acceso al Repositorio
 El código fuente está disponible en el siguiente enlace:
 
 👉 [Repositorio del Frontend en GitHub](https://github.com/william-medina/catalogo-libros-app)
 
-#### Características Destacadas del Frontend
+### Características Destacadas del Frontend
 - **Interfaz Responsiva**: Diseñada para ofrecer una experiencia de usuario fluida en dispositivos móviles y de escritorio.
 - **Conexión Eficiente a la API**: Permite la interacción en tiempo real con la API REST, facilitando búsquedas y visualización de datos de manera ágil.
 - **Componentes Reutilizables**: Estructura modular que simplifica el mantenimiento y la escalabilidad de la aplicación.
 
-#### Imágenes del Frontend
+### Imágenes del Frontend
 
 
 A continuación, se presentan algunas capturas de pantalla del frontend en diferentes modos:
 
-**Modo Oscuro:**
+#### Modo Oscuro:
 <img src="./src/main/resources/static/images/frontend-dark.png" alt="Frontend Modo Oscuro" width="600" style="display: block;" />
 
-**Modo Claro:**
+#### Modo Claro:
 <img src="./src/main/resources/static/images/frontend-light.png" alt="Frontend Modo Claro" width="600" style="display: block;" />
 
 ## Licencia
