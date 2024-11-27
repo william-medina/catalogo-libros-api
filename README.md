@@ -14,14 +14,15 @@
 
 1. [Descripción](#descripción)
 2. [Características](#características)
-3. [Tecnologías](#tecnologías)
-4. [Dependencias](#dependencias)
-5. [Requisitos](#requisitos)
-6. [Instalación](#instalación)
-7. [Uso](#uso)
-8. [Frontend](#frontend)
-9. [Licencia](#licencia)
-10. [Autor](#autor)
+3. [Gutendex API](#gutendex-api)
+4. [Tecnologías](#tecnologías)
+5. [Dependencias](#dependencias)
+6. [Requisitos](#requisitos)
+7. [Instalación](#instalación)
+8. [Uso](#uso)
+9. [Frontend](#frontend)
+10. [Licencia](#licencia)
+11. [Autor](#autor)
 
 ## Descripción
 
@@ -91,7 +92,7 @@ Al utilizar esta API, la aplicación puede proporcionar información precisa y a
 
 ## Dependencias
 
-Para que el **Catálogo de Libros** funcione correctamente, asegúrate de incluir las siguientes dependencias en tu proyecto:
+Para que el **Catálogo de Libros** funcione correctamente, asegúrate de incluir las siguientes dependencias:
 
 - **Spring Boot Starter Data JPA**: Para la integración con Hibernate.
 - **Spring Boot Starter Web**: Para la creación de la API REST.
@@ -108,6 +109,7 @@ Asegúrate de agregar las dependencias en el archivo `pom.xml` de tu proyecto Ma
 - JDK 21
 - Maven
 - IntelliJ IDEA (o cualquier otro IDE compatible con Java)
+- MySQL o cualquier base de datos relacional configurada
 ## Instalación
 
 1. Clona este repositorio:
@@ -126,7 +128,7 @@ Asegúrate de agregar las dependencias en el archivo `pom.xml` de tu proyecto Ma
 
     ```dotenv
     # Cadena de conexión a la base de datos (MySQL)
-    DB_URL=jdbc:mysql://localhost:3306//your_database_name
+    DB_URL=jdbc:mysql://localhost:3306/your_database_name
 
     # Nombre de usuario para conectarse a la base de datos
     DB_USERNAME=your_username  
