@@ -100,7 +100,6 @@ Para que el **Catálogo de Libros** funcione correctamente, asegúrate de inclui
 - **Jackson Databind**: Para la manipulación de JSON.
 - **Spring Boot DevTools**: Para el desarrollo y la recarga automática en tiempo de ejecución (opcional).
 - **Springdoc OpenAPI Starter**: Para la generación de documentación de la API con Swagger.
-- **Dotenv Java**: Para la carga de variables de entorno desde un archivo `.env`.
 
 Asegúrate de agregar las dependencias en el archivo `pom.xml` de tu proyecto Maven.
 
@@ -112,19 +111,18 @@ Asegúrate de agregar las dependencias en el archivo `pom.xml` de tu proyecto Ma
 - MySQL o cualquier base de datos relacional configurada
 ## Instalación
 
-1. Clona este repositorio:
+1. **Clona este repositorio**:
    ```bash
    git clone https://github.com/william-medina/catalogo-libros-api.git
    ```
 
-2. Navega al directorio del proyecto:
+2. **Navega al directorio del proyecto**:
    ```bash
    cd catalogo-libros-api
    ```
 
-3. **Crea un archivo `.env`:**
-
-   Crea un archivo `.env` en la raíz del directorio del proyecto y rellénalo con las variables de entorno necesarias. Aquí tienes una plantilla que puedes usar:
+3. **Agrega las variables de entorno**:  
+   A continuación, agrega las siguientes variables de entorno directamente en la configuración de tu sistema operativo o IDE.
 
     ```dotenv
     # Cadena de conexión a la base de datos (MySQL)
